@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="ie=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+       <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+       <link rel="stylesheet" href="css/bookings.css">
+       <link rel="stylesheet" href="css/responsivebk.css">
+       <!--<link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">-->
+       
+
+       <title>Yours-Truly || Bookings </title>
+    </head>
+    <body>
+  
+        <header class="bookingspage">
+            <div class="container">
+                 <div class="navbar">
+                            <div class="logo">
+                                 <a href="#"> <img src="images/yourstruly2editsmall.png" alt=""> </a>
+                             </div>
+                    <nav>
+                        <div class="btn">
+                            <i class="fa-solid fa-xmark close_btn"></i>
+                        </div>
+                         <li><a href="index.html">Home</a></li>
+                         <li><a href="about.html">About</a></li>
+                         <li><a href="about.html#services">Our Services</a></li>
+                         <li><a href="tel:+18033091125">+1 (803) 309-1125</a></li>
+                    </nav>
+                     <div class="btn">
+                        <i class="fa-solid fa-bars menu-btn"></i>
+                      </div>
+                </div> 
+           </div>
+    </header>
+
+    
+ <!---================ Order Now start =====================-->
+ <section class="order" id="order">
+    <div class="container">
+        <h2 class="head-row">Tell us what you want:</h2>
+    <div class="row">
+        <div class="imagee">
+            <img src="images/bookingsjpg2.jpg" alt="">
+        </div>
+
+        <form action="https://formspree.io/f/mbjvbedn" method="post">
+            <div class="inputBox">
+                <input type="text" name="name" placeholder="name" required>
+                <input type="email" name="email" placeholder="email" required>
+            </div>
+            <div class="inputBox">
+                <input type="number" name="number" placeholder="number" required>
+                <input type="text" name="skype" placeholder="skype" required>
+            </div>
+
+            <textarea class="inputdata" placeholder="make a request" name="make a request" 
+            id="" cols="30" rows="10" required></textarea>
+
+            <!-- checkbox -->
+    <div class="radioBox">       
+    <label for="checkbox">Ready to Schedule?:</label>
+    <input id="checkbox" type="checkbox" checked>
+    </div>
+    <br>
+    <!-- date -->
+    <div class="radioBox">
+    <label for="date">Date:</label>
+    <input id="date" type="date">
+    </div>
+    <br>
+    <!-- time -->
+    <div class="radioBox">
+    <label for="time">Time:</label>
+    <input id="time" type="time">
+    </div>
+    <br>
+      <!-- radio -->
+      <div class="radioBox">
+      <label for="Hire">Do you need weekends?:</label>
+      <br>
+      <label for="radio-yes">Yes:</label>
+      <input type="radio" name="choose" id="radio-yes" value="yes">
+      <label for="radio-no">No:</label>
+      <input type="radio" name="choose" id="radio-no" value="no">
+      <label for="radio-maybe">Maybe:</label>
+      <input type="radio" name="choose" id="radio-maybe" value="maybe">
+    </div>
+    <br>
+    <div class="radioBox">      
+                    <label for="lang">How did you find us?</label>
+                    <br>
+                    <select id="lang" name="lang" required>
+                        <option value="select">Pick one:</option>
+                        <option value="javascript">Search Engine [Google, Yahoo etc.]</option>
+                        <option value="java">Friends or Family</option>
+                        <option value="golang">Social Media</option>
+                        <option value="python">Blogs</option>
+                        <option value="C++">TV</option>
+                        <option value="c#">Other:</option>
+                    </select>
+                    <br>
+                    <input type="text" name="other" placeholder="other" required>
+</div>
+<br>
+            <input type="submit" value="I want this!" class="primary_btn">
+            <input type="reset" value="Reset" class="primary_btn">
+        </form>
+    </div> 
+    </div>
+</section>
+ <!---============== Order Now close ===================-->
+
+ <!---==================== boxes with content start ===================-->
+ <section id="box-normal_content">
+    <div class="container">
+      <h2 class="head-policy">Our Privacy Policy:</h2>
+        <div class="normal_content">
+            <div class="normal_content_boxes">
+                <h2>Communication</h2>
+                <p>All client-to-VA agent interactions,are strictly conducted via voice calls, 
+                  text/chat/skype messsaging or email only. Your privacy is important to us, so we do 
+                  not permit any visual,video or face-to-face interactions between our cients and VA agents.</p>
+            </div>
+            <div class="normal_content_boxes">
+                <h2>Personal Information</h2>
+                <p>We hold all our clients in high-esteem, so be rest assured that 
+                  every information [private or work related], will be protected 
+                and treated with utmost importance.</p>
+            </div>
+            <div class="normal_content_boxes">
+                <h2>Requirements</h2>
+                <p>Our clients are only required to provide the following data to us:
+                  <ul>
+                    &nbsp;
+                    <li>Name</li>
+                    <li>Phone Number</li>
+                    <li>Email Address</li>
+                    <li>Skype or chat usernames</li>
+                    &nbsp;
+                  </ul>
+                </p>
+                <p>
+                  Other than these, any other information provided should be work related.
+                </p>
+            </div>
+            <div class="normal_content_boxes">
+                <h2>Long-term Bonding</h2>
+                <p>At Yours-Truly, we keep our customers very happy and peaceful, 
+                  giving them the freedom to express themselves in a stress-free enviroment.
+                So feel FREE with us and do not hestitate to let us know what you need.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!---====================== boxes with content close ===========================-->
+
+
+
+             <!--- Footer starts-->
+
+ <section class="footer" id="contact">
+  <div class="logo_">
+      <a href="#home"> <img src="images/yourstruly2editsmall.png" alt=""> </a>
+  </div>
+  <div class="share">
+      <a href="https://twitter.com" class="link"><i class="fa-brands fa-twitter"></i></a>
+      <a href="https://www.facebook.com" class="link"><i class="fa-brands fa-facebook"></i></a>
+      <a href="@yours_truly.va" class="link"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.tiktok.com" class="link"><i class="fa-brands fa-tiktok"></i></a>
+      <a href="https://www.gmail.com" class="link"><i class="fa-solid fa-envelope"></i></a>
+  </div>
+
+  <p> &copy; 2023 <span>Yours-Truly | Link: yours-truly.life </span>. All Rights Reserved.</p>
+</section>
+
+<!--- Footer close-->
+
+
+
+<div class="whatsapp-container">
+  <a class="whatsapp-btn" href="https://join.skype.com/invite/BxvPRwIsLoTQ">
+    <i class="fa-brands fa-skype"></i></a>
+</div>
+
+
+  <!--========== SCROLL UP ==========-->
+  <!--<a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+</a>-->
+
+             <!--=============== SCROLL REVEAL===============-->
+             <script src="js/scrollreveal.min.js"></script>
+        
+
+        <script src="js/bookings.js"></script>
+        
+    </body>
+    </html>
