@@ -196,7 +196,7 @@ a{
   .slide .content a.btn{
     background: transparent;
     border: 2.5px solid #15a2f3;            
-    border-radius: 50px;
+    border-radius: 25px;
     color: #15a2f3;
     font-family: inherit;
     text-transform: uppercase;
