@@ -234,7 +234,7 @@ a{
     background-color: transparent;           /*used #15a2f3 blue before */
     color: #15a2f3;
     cursor: pointer;
-    padding: 13px 15px;
+    padding: 7px 9px;
     border-radius: 50%;
     outline: none;
   }
@@ -252,7 +252,7 @@ a{
     }
   
     .slide.current .content {
-      transform: translateY(-400px);
+      transform: translateY(-450px);
       transition: all 1.2s ease-in-out 1s;
     }
   }
