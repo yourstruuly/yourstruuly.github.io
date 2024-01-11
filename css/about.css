@@ -134,6 +134,12 @@ ul {
   list-style: none;
 }
 
+/* Styling for a specific section with bullets */
+.bulleted-section ul {
+  list-style: disc; /* Change to the desired bullet style (e.g., circle, square, etc.) */
+  /* Additional styles specific to this section if needed */
+}
+
 a {
   text-decoration: none;
 }
@@ -955,7 +961,7 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   color: #FFF;
 }
 .normal_content_boxes p {
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: #fff;
 }
 
