@@ -183,6 +183,13 @@ a{
     margin-bottom: 10px;
     color: #222;
   }
+
+  .slide .content h1 span {
+    font-family: "Poppins";
+    color: rgb(245, 51, 164);
+    font-size: 2.5rem;
+  }
+
   .slide .content p {
     margin: 10px 0;
     font-size: 1.2rem;

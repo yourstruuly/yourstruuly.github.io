@@ -342,7 +342,7 @@ input {
 }
 
 .home__data-title  span{
-font-family: "Raleway";
+font-family: "Arizonia";
 color: rgb(245, 51, 164);
 font-size: 5rem;
 }
@@ -862,6 +862,17 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   margin-bottom: var(--mb-0-5);
 }
 
+
+.section__title h2 {
+  font-size: 30px;
+  margin-bottom: 10px;                        /*i changed the margin*/
+}
+
+.section__title p {
+  font-size: 15px;
+}
+
+
 .experience__description {
   font-size: var(--small-font-size);
 }
@@ -901,6 +912,7 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 .video__container {
   padding-bottom: 1rem;
 }
+
 
 .video__description {
   text-align: center;
